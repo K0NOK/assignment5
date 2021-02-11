@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 35px;
+}
+
+#logo {
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgba(63, 6, 221, 0.75);
+    padding: 0px 20px;
+}
+
+.nav-link {
+    display: flex;
+    list-style: none;
+    margin-right: 80px;
+}
+
+.nav-link li {
+    padding: 5px 25px;
+    font-weight: bolder;
+    color: rgba(63, 6, 221, 0.75);
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid salmon;
+    border-radius: 10px;
+}
+
+.search-area {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-food {
+    text-align: center;
+    padding: 15px 200px;
+    font-size: larger;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: 1px solid salmon;
+}
+
+#search-button {
+    padding: 15px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: none;
+    background-color: tomato;
+    color: rgba(0, 0, 0, 0.966);
+    cursor: pointer;
+}
+
+#foods {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    text-align: center;
+    color: tomato;
+    cursor: pointer;
+}
+
+#foods img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.styleDiv {
+    background-color: tomato;
+    width: 400px;
+    margin-left: 32%;
+    margin-top: 5%;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.styleDiv a {
+    color: white;
+    font-size: larger;
+}
+
+.styleDiv ul {
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+#error-ingredients {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+}
+
+#error-foods {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+}
+
+#warning {
+    display: none;
+    text-align: center;
+    margin-top: 5%;
+    color: red;
+}
